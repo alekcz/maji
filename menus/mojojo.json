@@ -1,0 +1,22 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle mojojo",
+        "command": "mojojo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Mojojo",
+      "submenu": [
+        {
+          "label": "Toggle",
+          "command": "mojojo:toggle"
+          
+        }
+      ]
+    }
+  ]
+}
