@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-m": "mojojo:toggle"
+    "ctrl-alt-m": "mojojo:preview",
+    "ctrl-alt-q": "mojojo:close"
   }
 }

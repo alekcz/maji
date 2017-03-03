@@ -5,12 +5,16 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "mojojo:toggle"
+    "atom-workspace": ["mojojo:preview","mojojo:close"]
   },
   "repository": "https://github.com/atom/mojojo",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "loophole": "^1.1.0",
+    "shelljs": "^0.7.6"
+  }
 }

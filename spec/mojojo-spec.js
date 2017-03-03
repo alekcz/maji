@@ -23,7 +23,7 @@ describe('Mojojo', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'mojojo:toggle');
+      atom.commands.dispatch(workspaceElement, 'mojojo:preview');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -55,7 +55,7 @@ describe('Mojojo', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'mojojo:toggle');
+      atom.commands.dispatch(workspaceElement, 'mojojo:preview');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('Mojojo', () => {
         // Now we can test for view visibility
         let mojojoElement = workspaceElement.querySelector('.mojojo');
         expect(mojojoElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'mojojo:toggle');
+        atom.commands.dispatch(workspaceElement, 'mojojo:preview');
         expect(mojojoElement).not.toBeVisible();
       });
     });

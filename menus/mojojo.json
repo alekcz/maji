@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle mojojo",
-        "command": "mojojo:toggle"
+        "label": "Show Preview",
+        "command": "mojojo:preview"
       }
     ]
   },
@@ -12,9 +12,14 @@
       "label": "Mojojo",
       "submenu": [
         {
-          "label": "Toggle",
-          "command": "mojojo:toggle"
-          
+          "label": "Show Preview",
+          "command": "mojojo:preview"
+
+        },
+        {
+          "label": "Close Preview",
+          "command": "mojojo:close"
+
         }
       ]
     }
