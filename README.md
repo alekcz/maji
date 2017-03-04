@@ -7,6 +7,9 @@ Activity: In active development
 
 Stability: Unknown (assume unstable)
 
+OS X: Can edit and view all prototypes
+Ubuntu: Can edit and view all prototypes
+Windows: Can only edit and view Framer Studio prototypes
 
 ## Installing Maji Studio
 
