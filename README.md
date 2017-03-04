@@ -7,12 +7,7 @@ Activity: In active development
 
 Stability: Unknown (assume unstable)
 
-OS X: Can edit and view all prototypes
-Ubuntu: Can edit and view all prototypes
-Windows: Can only edit and view Framer Studio prototypes
-
 ## Installing Maji Studio
-
 
 ### Install Atom Editor
 Maji Studio is actually an add-on or package for [Atom Editor](https://atom.io/). You need to
