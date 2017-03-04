@@ -1,5 +1,5 @@
 {
-  "name": "maji",
+  "name": "Maji Studio",
   "main": "./lib/maji",
   "version": "0.0.0",
   "description": "An atom package for prototyping interactions using mo.js or framer.js",
