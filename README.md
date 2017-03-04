@@ -22,12 +22,12 @@ install Atom first.
 3. Run the command: `sudo apt update; sudo apt install atom`
 
 #### Installing Atom on OS X
-1. Download the zip file (https://atom.io/download/mac)[https://atom.io/download/mac]
+1. Download the zip file [https://atom.io/download/mac](https://atom.io/download/mac)
 2. Extract the zip file
 3. Drop the Atom app into Applications
 
 #### Installing Atom on Windows
-1. Download the installer file (https://atom.io/download/windows)[https://atom.io/download/windows]
+1. Download the installer file [https://atom.io/download/windows](https://atom.io/download/windows)
 2. Run the installer
 3. Next. Next. Finish.
 
@@ -54,28 +54,9 @@ be activated. To activate Preview Mode using the menu bar select `Maji Studio > 
 
 The preview pane refreshes each time a file is saved.
 
-### Language Choices
+### Library and Language Choices
 
 Code may be written in either `app.js` or `app.coffee` depending on whether you are using mo.js or framer.js.
-- To select mo.js as the animation library the first command in app.js should be
-
-```
-useMojs();
-```
-
-- To select framer.js as the animation library (using *javascript*) the first command in app.js should be
-
-```
-useFramer();
-```
-
-- To select framer.js as the animation library (using *coffeescript*) the first command in app.js should be
-
-```
-useFramerWithCoffee();
-```
-
-If coffeescript is selected write your code in `app.coffee`
 
 #### Mo.js
 If animating or prototyping using [mo.js](http://mojs.io/) the better language choice is javascript.
@@ -84,6 +65,15 @@ Coffee script may also be attempted. It may end badly.
 #### Framer.js
 If animating or prototyping using [framer.js]() ([github](https://github.com/koenbok/Framer)) either javascript or coffeescript
 may be used.
+
+#### Selecting the library and language
+
+- To select mo.js as the animation library the first command in app.js should be `useMojs();``
+- To select framer.js as the animation library (using **javascript**) the first command in app.js should be `useFramer();`
+- To select framer.js as the animation library (using **coffeescript**) the first command in app.js should be `useFramerWithCoffee();`
+
+If coffeescript is selected write your code in `app.coffee`
+
 
 ### Shortcuts
 There are current only a few commands in Maji Studio. They are as follows.
@@ -116,17 +106,17 @@ Creators twitter handle: [@koenbok](https://twitter.com/koenbok)
 ## Licenses
 
 ### Mo.js
-(The MIT License)
+The MIT License (MIT)
 
 Copyright (c) Oleg Solomka [@legomushroom](https://twitter.com/legomushroom) legomushroom@gmail.com
 
 ### Framer.js
 The MIT License (MIT)
 
-Copyright (c) 2014 Koen Bok @koenbok
+Copyright (c) 2014 Koen Bok [@koenbok](https://twitter.com/koenbok)
 
 
 ### Maji Studio
-MIT License
+The MIT License (MIT)
 
 Copyright (c) 2017 Alexander Oloo [@alekcz](https://twitter.com/alekcz) alekcz@gmail.com
