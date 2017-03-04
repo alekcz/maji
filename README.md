@@ -49,8 +49,10 @@ install Atom first.
 4. Maji Studio will automatically open the newly created project.
 
 ### Preview mode
-In order to view the prototype (only Mobile at the moment), preview mode needs to
+In order to view the prototype (only mobile prototypes are available at the moment), preview mode needs to
 be activated. To activate Preview Mode using the menu bar select `Maji Studio > Show Preview` or press `Ctrl+Alt+M`.
+
+Preview Mode can only be activated if there is an active workspace. Open a folder to create a workspace or `.framer` file.
 
 The preview pane refreshes each time a file is saved.
 
@@ -68,7 +70,7 @@ may be used.
 
 #### Selecting the library and language
 
-- To select mo.js as the animation library the first command in app.js should be `useMojs();``
+- To select mo.js as the animation library the first command in app.js should be `useMojs();`
 - To select framer.js as the animation library (using **javascript**) the first command in app.js should be `useFramer();`
 - To select framer.js as the animation library (using **coffeescript**) the first command in app.js should be `useFramerWithCoffee();`
 
