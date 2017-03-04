@@ -1,0 +1,31 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Show Preview",
+        "command": "maji:preview"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Maji Studio",
+      "submenu": [
+        {
+          "label": "New Maji Studio Project",
+          "command": "maji:new"
+
+        },
+        {
+          "label": "Show Preview",
+          "command": "maji:preview"
+
+        },
+        {
+          "label": "Close Preview",
+          "command": "maji:close"
+
+        }      ]
+    }
+  ]
+}

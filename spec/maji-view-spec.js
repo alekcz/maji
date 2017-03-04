@@ -1,8 +1,8 @@
 'use babel';
 
-import MojojoView from '../lib/mojojo-view';
+import majiView from '../lib/maji-view';
 
-describe('MojojoView', () => {
+describe('MajiView', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });

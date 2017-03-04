@@ -1,7 +1,7 @@
-# mojojo package
+# Maji Studio
 
-An atom package for prototyping interactions using mo.js
+An atom package for prototyping interactions using mo.js and framer.js.
 
 ## Status
-
-In development
+Activity: In active development
+Stability: Unknown (assume unstable)

@@ -1,44 +1,44 @@
 'use babel';
 
-import Mojojo from '../lib/mojojo';
+import maji from '../lib/maji';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('Mojojo', () => {
+describe('maji', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('mojojo');
+    activationPromise = atom.packages.activatePackage('maji');
   });
 
-  describe('when the mojojo:toggle event is triggered', () => {
+  describe('when the maji:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.mojojo')).not.toExist();
+      expect(workspaceElement.querySelector('.maji')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'mojojo:preview');
+      atom.commands.dispatch(workspaceElement, 'maji:preview');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.mojojo')).toExist();
+        expect(workspaceElement.querySelector('.maji')).toExist();
 
-        let mojojoElement = workspaceElement.querySelector('.mojojo');
-        expect(mojojoElement).toExist();
+        let majiElement = workspaceElement.querySelector('.maji');
+        expect(majiElement).toExist();
 
-        let mojojoPanel = atom.workspace.panelForItem(mojojoElement);
-        expect(mojojoPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'mojojo:toggle');
-        expect(mojojoPanel.isVisible()).toBe(false);
+        let majiPanel = atom.workspace.panelForItem(majiElement);
+        expect(majiPanel.isVisible()).toBe(true);
+        atom.commands.dispatch(workspaceElement, 'maji:toggle');
+        expect(majiPanel.isVisible()).toBe(false);
       });
     });
 
@@ -51,11 +51,11 @@ describe('Mojojo', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.mojojo')).not.toExist();
+      expect(workspaceElement.querySelector('.maji')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'mojojo:preview');
+      atom.commands.dispatch(workspaceElement, 'maji:preview');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,10 +63,10 @@ describe('Mojojo', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let mojojoElement = workspaceElement.querySelector('.mojojo');
-        expect(mojojoElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'mojojo:preview');
-        expect(mojojoElement).not.toBeVisible();
+        let majiElement = workspaceElement.querySelector('.maji');
+        expect(majiElement).toBeVisible();
+        atom.commands.dispatch(workspaceElement, 'maji:preview');
+        expect(majiElement).not.toBeVisible();
       });
     });
   });

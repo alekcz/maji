@@ -1,20 +1,24 @@
 {
-  "name": "mojojo",
-  "main": "./lib/mojojo",
+  "name": "maji",
+  "main": "./lib/maji",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "An atom package for prototyping interactions using mo.js or framer.js",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["mojojo:preview","mojojo:close"]
+    "atom-workspace": [
+      "maji:preview",
+      "maji:close",
+      "maji:new"
+    ]
   },
-  "repository": "https://github.com/atom/mojojo",
+  "repository": "https://github.com/alekcz/maji",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "fs-extra": "^2.0.0",
     "live-server": "^1.2.0",
-    "loophole": "^1.1.0",
-    "shelljs": "^0.7.6"
+    "loophole": "^1.1.0"
   }
 }
