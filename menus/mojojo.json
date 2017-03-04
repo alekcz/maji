@@ -20,6 +20,11 @@
           "label": "Close Preview",
           "command": "mojojo:close"
 
+        },
+        {
+          "label": "New Mojojo Project",
+          "command": "mojojo:new"
+
         }
       ]
     }
