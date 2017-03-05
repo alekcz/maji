@@ -1,5 +1,6 @@
+![maji-studio-banner](https://maji-studio-examples.firebaseapp.com/assets/maji-studio-github.png)
+
 # Maji Studio
-![maji-studio-banner](https://maji-studio-examples.firebaseapp.com/assets/maji-studio-banner.png)
 
 An atom package for prototyping interactions using mo.js and framer.js.
 
