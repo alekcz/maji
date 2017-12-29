@@ -2,6 +2,7 @@
   "atom-workspace": {
     "ctrl-alt-m": "maji:preview",
     "ctrl-alt-c": "maji:close",
-    "ctrl-alt-n": "maji:new"
+    "ctrl-alt-n": "maji:new",
+    "ctrl-alt-p": "maji:present"
   }
 }

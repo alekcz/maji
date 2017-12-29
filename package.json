@@ -8,7 +8,8 @@
     "atom-workspace": [
       "maji:preview",
       "maji:close",
-      "maji:new"
+      "maji:new",
+      "maji:present"
     ]
   },
   "repository": "https://github.com/alekcz/maji",
