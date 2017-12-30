@@ -18,6 +18,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "download-git-repo": "^1.0.1",
     "fs-extra": "^2.0.0",
     "live-server": "^1.2.0",
     "loophole": "^1.1.0"
