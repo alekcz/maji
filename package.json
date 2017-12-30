@@ -15,7 +15,7 @@
   "repository": "https://github.com/alekcz/maji",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.23.0 <2.0.0"
   },
   "dependencies": {
     "download-git-repo": "^1.0.1",
