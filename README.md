@@ -13,7 +13,7 @@ Stability: Unknown (assume unstable)
 
 ### Install Atom Editor
 Maji Studio is actually an add-on or package for [Atom Editor](https://atom.io/). You need to
-install Atom first.
+install Atom first (> v.1.23.0)
 
 
 #### Installing Atom on Ubuntu
