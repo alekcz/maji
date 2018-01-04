@@ -22,6 +22,11 @@
 
         },
         {
+          "label": "Import Design",
+          "command": "maji:import"
+
+        },
+        {
           "label": "Show Preview",
           "command": "maji:preview"
 
