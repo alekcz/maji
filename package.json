@@ -9,7 +9,8 @@
       "maji:preview",
       "maji:close",
       "maji:new",
-      "maji:present"
+      "maji:present",
+      "maji:import"
     ]
   },
   "repository": "https://github.com/alekcz/maji",
