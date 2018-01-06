@@ -21,9 +21,10 @@
   "dependencies": {
     "download-git-repo": "^1.0.1",
     "fs-extra": "^2.0.0",
-    "maji-import": "0.4.2",
+    "glob": "^7.1.2",
     "live-server": "^1.2.0",
     "loophole": "^1.1.0",
+    "maji-import": "0.4.2",
     "replace-in-file": "^3.1.0"
   }
 }
