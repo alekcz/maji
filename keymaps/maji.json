@@ -4,6 +4,7 @@
     "ctrl-alt-c": "maji:close",
     "ctrl-alt-n": "maji:new",
     "ctrl-alt-p": "maji:present",
-    "ctrl-alt-i": "maji:import"
+    "ctrl-alt-i": "maji:import",
+    "ctrl-alt-s": "maji:share"
   }
 }

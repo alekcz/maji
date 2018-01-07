@@ -10,7 +10,8 @@
       "maji:close",
       "maji:new",
       "maji:present",
-      "maji:import"
+      "maji:import",
+      "maji:share"
     ]
   },
   "repository": "https://github.com/alekcz/maji",
@@ -24,7 +25,9 @@
     "glob": "^7.1.2",
     "live-server": "^1.2.0",
     "loophole": "^1.1.0",
-    "maji-import": "0.5.0",
-    "replace-in-file": "^3.1.0"
+    "maji-import": "0.5.2",
+    "qrcode": "^1.2.0",
+    "replace-in-file": "^3.1.0",
+    "traverse": "^0.6.6"
   }
 }

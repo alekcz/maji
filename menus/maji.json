@@ -17,11 +17,6 @@
 
         },
         {
-          "label": "Present Project",
-          "command": "maji:present"
-
-        },
-        {
           "label": "Import Design",
           "command": "maji:import"
 
@@ -34,6 +29,16 @@
         {
           "label": "Close Preview",
           "command": "maji:close"
+
+        },
+        {
+          "label": "Present Project",
+          "command": "maji:present"
+
+        },
+        {
+          "label": "Share Project",
+          "command": "maji:share"
 
         }      ]
     }
